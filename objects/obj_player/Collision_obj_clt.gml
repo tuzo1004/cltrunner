@@ -7,5 +7,6 @@ if hitflash < .2
 		room_restart()
 		global.velocidade = 1
 		global.pontos = 0
+		audio_stop_all()
 	}
 }
