@@ -1,0 +1,5 @@
+draw_set_font(fonte)
+draw_set_halign(textalign_left)
+draw_text(5,5,"vidas:" + string(vida))
+draw_set_halign(textalign_right)
+draw_text(355,5,"pontos:" + string(global.pontos))
